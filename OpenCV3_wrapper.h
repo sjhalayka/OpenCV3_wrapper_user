@@ -9,12 +9,10 @@
 #endif
 
 
+#include <vector>
+using namespace std;
+
 #pragma comment(lib, "OpenCV3_wrapper.lib")
 
 
-#include <opencv2/opencv.hpp>
-using namespace cv;
-
-
-
-DECLDIR void get_gray_mat(int rows, int cols, cv::Mat &mat);
+DECLDIR void get_gray_image(int rows, int cols, vector<float> &img_data);
