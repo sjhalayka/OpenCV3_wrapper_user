@@ -15,4 +15,7 @@ using namespace std;
 #pragma comment(lib, "OpenCV3_wrapper.lib")
 
 
+// Include OpenCV 2.x headers and libs here
+
+
 DECLDIR void get_gray_image(int rows, int cols, vector<float> &img_data);
